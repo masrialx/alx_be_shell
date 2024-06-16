@@ -1,2 +1,4 @@
 #!/bin/bash
-chmod 753 hello && ls -l hello | awk '{print $1}'
+chmod 753 hello
+ls -l hello | awk 'NR<=2 {print $1}'
+
