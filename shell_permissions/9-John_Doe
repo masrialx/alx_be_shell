@@ -1,7 +1,3 @@
 #!/bin/bash
-
-# Change mode of the file hello
 chmod 753 hello
-
-# Verify the changes
 ls -l hello
