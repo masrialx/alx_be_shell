@@ -1,2 +1,7 @@
 #!/bin/bash
-chmod u=rwx g=r-x o=r-x hello
+
+# Change mode of the file hello
+chmod 753 hello
+
+# Verify the changes
+ls -l hello
